@@ -60,7 +60,21 @@ let remindersController = {
   },
 
   delete: (req, res) => {
-    // Implement this code
+    let reminderToFind = req.params.id
+    let reminders = database.cindy.reminders
+    // console.log(reminders);
+    // console.log(reminders[0]);
+    // console.log(reminders[0].id);
+    for (let i =0; i<reminders.length;i++){
+      // console.log("for loop running");
+      if (reminders[i].id == reminderToFind){
+        // console.log("if ran");
+        database.cindy.reminders.splice(i,1);
+        break;
+      }
+    }
+    res.redirect("/reminders")
+    
   },
 };
 
