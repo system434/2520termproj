@@ -1,0 +1,13 @@
+<div class="container">
+    <h1>Dashboard</h1>
+    <p>Welcome <%= user.name %></p></br>
+    <p>Current Active Sessions:</p>
+    <% for (const session in sessions) { %>
+        <p>SessionID: <%= session %> </p>
+        <%  let session_object = sessions[session] %>
+        <p>UserID: <%= session_object["passport"].user %></p>
+        <form>
+            <button name="Revoke" value="<%= session %>" class="btn btn-primary" formmethod="post">Revoke Session</button>
+        </form>
+    <% } %>
+</div>

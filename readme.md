@@ -20,13 +20,19 @@ Start Github after Local Authentication (Task 2)
 Research for Admin Functionality (Task 3)
 
 Elson: 
-wip
+Local Authentication
+register user
+
 
 
 Nov. 15th (Fourth Sprint)
 James:
+Github Authentication
+Admin Capabilties
+Research multer and imugurAPI
 
 Elson:
+Research for Unsplash
 
 Nov. 22nd (Fifth Sprint)
 James:
