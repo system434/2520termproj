@@ -10,7 +10,6 @@ const indexRoute = require("./routes/indexRoute");
 const adminRoute = require("./routes/adminRoute");
 
 
-
 app.set("view engine", "ejs");
 app.use(
   session({

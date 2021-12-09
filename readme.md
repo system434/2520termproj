@@ -36,8 +36,12 @@ Research for Unsplash
 
 Nov. 22nd (Fifth Sprint)
 James:
+Sick, catching up with other classes
+Assisting with Unsplash
+Attempted multer and imugurAPI with no success
 
 Elson:
+Implement Unsplash functionality (register still unfunction, just generates random picture)
 
 
 
